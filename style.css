@@ -1,0 +1,18 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: #0d0d0f;
+    color: #e6e6e6;
+    margin: 0;
+    padding: 20px;
+}
+.container { max-width: 500px; margin: auto; }
+.fade-in { opacity: 0; animation: fadeIn 1.2s ease forwards; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px);} to { opacity: 1; transform: translateY(0);} }
+.profile { text-align: center; margin-bottom: 25px; }
+.avatar { width: 120px; height: 120px; border-radius: 50%; border: 2px solid #333; box-shadow: 0 0 20px rgba(255,255,255,0.05); }
+.name { font-size: 26px; margin: 15px 0 5px; }
+.bio { font-size: 14px; color: #aaa; }
+.btn { display: block; background: #1a1a1d; padding: 14px; margin: 12px 0; border-radius: 12px; border: 1px solid #2f2f31; text-decoration: none; color: #e6e6e6; font-size: 16px; transition: 0.25s; }
+.btn:hover { background: #242427; transform: translateY(-2px); border-color: #3a3a3d; }
+.feature-img { width: 100%; border-radius: 12px; margin: 25px 0; border: 1px solid #2f2f31; }
+.video-block video { width: 100%; border-radius: 12px; margin-top: 20px; border: 1px solid #2f2f31; }
